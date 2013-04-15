@@ -1,6 +1,6 @@
 # CrxAppid
 
-TODO: Write a gem description
+Calculate Chrome extension appid from pem
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+pem = open("extension.pem").read
+CrxAppid.calculate(pem)
+
+CrxAppid.calculate_from_file("extension.pem")
+```
 
 ## Contributing
 
