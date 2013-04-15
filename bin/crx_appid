@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require 'crx_appid'
+
+pem = ARGV.shift
+unless pem
+  puts <<USAGE
+Usage: #{File.basename($0)} extension.pem
+
+USAGE
+  exit!
+end
+
+puts CrxAppid.calculate_from_file(pem)
