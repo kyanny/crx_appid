@@ -1,5 +1,7 @@
 # CrxAppid
 
+[![Build Status](https://travis-ci.org/kyanny/crx_appid.png)](https://travis-ci.org/kyanny/crx_appid)
+
 Calculate Chrome extension appid from pem
 
 ## Installation
