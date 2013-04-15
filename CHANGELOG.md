@@ -1,3 +1,7 @@
+## 0.0.2
+
+* Add `bin/crx_appid` script
+
 ## 0.0.1
 
 * Initial release
